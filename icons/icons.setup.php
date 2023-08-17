@@ -16,7 +16,6 @@
  * Lock_members=12345A
 [END_COT_EXT]
 [BEGIN_COT_EXT_CONFIG]
-code=01:string::default:Project Code
 [END_COT_EXT_CONFIG]
 ==================== */
 

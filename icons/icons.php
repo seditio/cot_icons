@@ -15,5 +15,5 @@ Hooks=rc
 
 defined('COT_CODE') or die('Wrong URL');
 
-require_once cot_incfile('icons', 'plug', 'settings.'.$cfg['plugin']['icons']['code'].'');
+require_once cot_incfile('icons', 'plug', 'settings.default');
 require_once cot_incfile('icons', 'plug', 'rc');
