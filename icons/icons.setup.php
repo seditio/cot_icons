@@ -16,6 +16,8 @@
  * Lock_members=12345A
 [END_COT_EXT]
 [BEGIN_COT_EXT_CONFIG]
+front=01:string::fa642free:
+back=02:string::fa642free:
 [END_COT_EXT_CONFIG]
 ==================== */
 

@@ -15,16 +15,22 @@ Hooks=rc
 
 defined('COT_CODE') or die('Wrong URL');
 
+$R['icon_cust'] = '<i class="fa {$type} fa-{$code}"></i>';
+
 // New Suggestions
 
 $R['icon-bookmark'] = cot_rc('icon_cust', array('code' => 'bookmark', 'type' => ''));
 $R['icon-calendar'] = cot_rc('icon_cust', array('code' => 'calendar', 'type' => ''));
 $R['icon-calendar-plus'] = cot_rc('icon_cust', array('code' => 'calendar-plus', 'type' => ''));
+$R['icon-chart-line'] = cot_rc('icon_cust', array('code' => 'chart-line', 'type' => ''));
+$R['icon-chart-pie'] = cot_rc('icon_cust', array('code' => 'chart-pie', 'type' => ''));
 $R['icon-clipboard-question'] = cot_rc('icon_cust', array('code' => 'clipboard-question', 'type' => ''));
 $R['icon-clock'] = cot_rc('icon_cust', array('code' => 'clock', 'type' => ''));
 $R['icon-ellipsis'] = cot_rc('icon_cust', array('code' => 'ellipsis', 'type' => ''));
-$R['icon-file-code'] = cot_rc('icon_cust', array('code' => 'file-code', 'type' => ''));
-$R['icon-file-lines'] = cot_rc('icon_cust', array('code' => 'file-lines', 'type' => ''));
+$R['icon-file-invoice'] = cot_rc('icon_cust', array('code' => 'file-invoice-dollar', 'type' => ''));
+$R['icon-folder-tree'] = cot_rc('icon_cust', array('code' => 'folder-tree', 'type' => ''));
+$R['icon-right-left'] = cot_rc('icon_cust', array('code' => 'right-left', 'type' => ''));
+$R['icon-server'] = cot_rc('icon_cust', array('code' => 'server', 'type' => ''));
 $R['icon-tag'] = cot_rc('icon_cust', array('code' => 'tag', 'type' => ''));
 $R['icon-tags'] = cot_rc('icon_cust', array('code' => 'tags', 'type' => ''));
 
@@ -92,7 +98,10 @@ $R['icon-door-open'] = cot_rc('icon_cust', array('code' => 'door-open', 'type' =
 $R['icon-external-link'] = cot_rc('icon_cust', array('code' => 'arrow-up-right-from-square', 'type' => ''));
 $R['icon-eye'] = cot_rc('icon_cust', array('code' => 'eye', 'type' => ''));
 $R['icon-file'] = cot_rc('icon_cust', array('code' => 'file', 'type' => ''));
+$R['icon-file-circle-question'] = cot_rc('icon_cust', array('code' => 'file-circle-question', 'type' => ''));
+$R['icon-file-code'] = cot_rc('icon_cust', array('code' => 'file-code', 'type' => ''));
 $R['icon-file-export'] = cot_rc('icon_cust', array('code' => 'file-export', 'type' => ''));
+$R['icon-file-lines'] = cot_rc('icon_cust', array('code' => 'file-lines', 'type' => ''));
 $R['icon-filter'] = cot_rc('icon_cust', array('code' => 'filter', 'type' => ''));
 $R['icon-flag-checkered'] = cot_rc('icon_cust', array('code' => 'flag-checkered', 'type' => ''));
 $R['icon-folder'] = cot_rc('icon_cust', array('code' => 'folder', 'type' => ''));
