@@ -1,4 +1,4 @@
-<?
+<?php
 /**
 * [SEDBY] Icons Plugin / Default Settings
 *
