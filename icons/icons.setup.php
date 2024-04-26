@@ -5,7 +5,7 @@
  * Name=[SEDBY] Icons
  * Category=misc-ext
  * Description=Support for font-packed UI vector icons
- * Version=1.00
+ * Version=1.10
  * Date=2023-01-21
  * Author=Dmitri Beliavski
  * Copyright=&copy; 2023 Seditio.By
