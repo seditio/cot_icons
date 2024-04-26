@@ -34,7 +34,15 @@ $R['icon-server'] = cot_rc('icon_cust', array('code' => 'server', 'type' => ''))
 $R['icon-tag'] = cot_rc('icon_cust', array('code' => 'tag', 'type' => ''));
 $R['icon-tags'] = cot_rc('icon_cust', array('code' => 'tags', 'type' => ''));
 
+$R['icon-backward'] = cot_rc('icon_cust', array('code' => 'backward', 'type' => ''));
+$R['icon-forward'] = cot_rc('icon_cust', array('code' => 'forward', 'type' => ''));
+
 // Basic Icons
+
+$R['icon-caret-down'] = cot_rc('icon_cust', array('code' => 'caret-down', 'type' => ''));
+$R['icon-caret-left'] = cot_rc('icon_cust', array('code' => 'caret-left', 'type' => ''));
+$R['icon-caret-right'] = cot_rc('icon_cust', array('code' => 'caret-right', 'type' => ''));
+$R['icon-caret-up'] = cot_rc('icon_cust', array('code' => 'caret-up', 'type' => ''));
 
 $R['icon-arrow-down'] = cot_rc('icon_cust', array('code' => 'arrow-down', 'type' => ''));
 $R['icon-arrow-left'] = cot_rc('icon_cust', array('code' => 'arrow-left', 'type' => ''));
@@ -156,3 +164,6 @@ $R['icon-telegram'] = cot_rc('icon_cust', array('code' => 'telegram', 'type' => 
 $R['icon-viber'] = cot_rc('icon_cust', array('code' => 'viber', 'type' => 'fa-brands'));
 $R['icon-vk'] = cot_rc('icon_cust', array('code' => 'vk', 'type' => 'fa-brands'));
 $R['icon-yandex'] = cot_rc('icon_cust', array('code' => 'yandex', 'type' => 'fa-brands'));
+
+$R['icon-instagram'] = cot_rc('icon_cust', array('code' => 'instagram', 'type' => 'fa-brands'));
+$R['icon-pinterest'] = cot_rc('icon_cust', array('code' => 'pinterest', 'type' => 'fa-brands'));
