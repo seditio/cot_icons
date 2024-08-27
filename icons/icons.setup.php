@@ -5,7 +5,7 @@
  * Name=[SEDBY] Icons
  * Category=misc-ext
  * Description=Support for font-packed UI vector icons
- * Version=1.11
+ * Version=1.00
  * Date=2023-01-21
  * Author=Dmitri Beliavski
  * Copyright=&copy; 2023 Seditio.By
@@ -16,8 +16,8 @@
  * Lock_members=12345A
 [END_COT_EXT]
 [BEGIN_COT_EXT_CONFIG]
-front=01:string::fa642free:
-back=02:string::fa642free:
+front=01:string::fa652free:
+back=02:string::fa652free:
 [END_COT_EXT_CONFIG]
 ==================== */
 
